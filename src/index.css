@@ -1,4 +1,7 @@
 @import '~antd/dist/antd.css';
+.text-center{
+  text-align: center;
+}
 .d-flex {
   display: -ms-flexbox;
   display: flex;
