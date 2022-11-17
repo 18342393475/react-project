@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import {BrowserRouter, useRoutes} from 'react-router-dom'
+import option from './router/index'
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const Index = () => {
+  const element = useRoutes(option);
+  return element
+}
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Index />
+    </BrowserRouter>
+    {/* <App /> */}
   </React.StrictMode>
 );
 

@@ -21,6 +21,7 @@
             right: 34%;
             top: 40px;
             background-color: rgba(255, 255, 255, .8);
+            border-radius: 4px;
         }
     }
     footer{
@@ -31,12 +32,12 @@
         }
     }
     :global{
-        .ant-form-item-label{
-            flex: 0 0 80px;
-        }
-        .ant-form-item-control{
-            width: calc(100% - 80px);
-            max-width: calc(100% - 80px);
-        }
+        // .ant-form-item-label{
+        //     flex: 0 0 80px;
+        // }
+        // .ant-form-item-control{
+        //     width: calc(100% - 80px);
+        //     max-width: calc(100% - 80px);
+        // }
     }
 }
